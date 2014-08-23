@@ -29,7 +29,7 @@ makeCacheMatrix <- function (x = matrix()) {
 
 ## cacheSolve uses the "subfunctions" defined previously to access
 ## the members of the matrix. Specifically, it accesses the inverse
-## matrix, if its calculated (not null) it returns it, if not, it
+## matrix, if it's calculated (not null) it returns it, if not, it
 ## calculates it, stores it (using setinverse) and returns it.
 
 cacheSolve <- function(x, ...) {
